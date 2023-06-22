@@ -1,0 +1,39 @@
+{
+	"nodes":[
+		{"type":"text","text":"应用层","id":"c5f5e30d7b5aa26a","x":-380,"y":-160,"width":250,"height":60},
+		{"type":"text","text":"技术指标   ","id":"1f23611673bbe1b7","x":-380,"y":-300,"width":250,"height":60},
+		{"type":"text","text":"http","id":"bc321fce57516576","x":15,"y":-260,"width":250,"height":60},
+		{"type":"text","text":"smtp/pop3","id":"a221467ed3653df5","x":15,"y":-160,"width":250,"height":60},
+		{"type":"text","text":"ftp","id":"9aa3f1fde47b1d94","x":15,"y":-50,"width":250,"height":60},
+		{"type":"text","text":"传输层","id":"bdc8a02263b7ed09","x":-380,"y":100,"width":250,"height":60},
+		{"type":"text","text":"tcp\n","id":"7b306dffe6db4795","x":15,"y":70,"width":250,"height":60},
+		{"type":"text","text":"udp","id":"b1a7af15e53cb4cc","x":15,"y":200,"width":250,"height":60},
+		{"type":"text","text":"路由选择算法","id":"f19446db2b95b6fb","x":356,"y":460,"width":250,"height":60},
+		{"type":"text","text":"数据链路层","id":"99fdce2363f07051","x":-380,"y":600,"width":250,"height":60},
+		{"type":"text","text":"网络层（主机到主机）","id":"9c84b581ebde13c2","x":-380,"y":344,"width":250,"height":60},
+		{"type":"text","text":"物理层","id":"5444b6d2366457f1","x":-380,"y":720,"width":250,"height":60},
+		{"type":"text","text":"这两个不是重点","id":"47e2681a667d9ce9","x":-800,"y":660,"width":250,"height":60},
+		{"type":"text","text":"","id":"d3ab16a359ec1512","x":767,"y":371,"width":250,"height":60},
+		{"type":"text","text":"分类地址","id":"b2d95e38c9d0e219","x":767,"y":562,"width":250,"height":60},
+		{"type":"text","text":"CIDR","id":"a0e21de1fba99009","x":767,"y":690,"width":250,"height":60},
+		{"id":"d7457b006bd3a0e1","x":-15,"y":284,"width":250,"height":60,"type":"text","text":"功能 "},
+		{"type":"text","text":"ipv4（地址编号与管理）","id":"4eb5143a77cf1802","x":-15,"y":430,"width":250,"height":60},
+		{"type":"text","text":"地址划分规则","id":"ff2fafa0dda083bd","x":356,"y":570,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"05374d28b1a61da6","fromNode":"c5f5e30d7b5aa26a","fromSide":"right","toNode":"bc321fce57516576","toSide":"left"},
+		{"id":"2489aff36aba267d","fromNode":"c5f5e30d7b5aa26a","fromSide":"right","toNode":"a221467ed3653df5","toSide":"left"},
+		{"id":"8990424bd06a9763","fromNode":"c5f5e30d7b5aa26a","fromSide":"right","toNode":"9aa3f1fde47b1d94","toSide":"left"},
+		{"id":"b8bd627fb5a7c020","fromNode":"bdc8a02263b7ed09","fromSide":"right","toNode":"7b306dffe6db4795","toSide":"left"},
+		{"id":"9a65f77779a0913c","fromNode":"bdc8a02263b7ed09","fromSide":"right","toNode":"b1a7af15e53cb4cc","toSide":"left"},
+		{"id":"5535b256a7f4c731","fromNode":"9c84b581ebde13c2","fromSide":"right","toNode":"4eb5143a77cf1802","toSide":"left"},
+		{"id":"cd17588d37f3f072","fromNode":"4eb5143a77cf1802","fromSide":"right","toNode":"f19446db2b95b6fb","toSide":"left"},
+		{"id":"f8df7ff6be0c0e09","fromNode":"47e2681a667d9ce9","fromSide":"right","toNode":"99fdce2363f07051","toSide":"left"},
+		{"id":"b1e41c5ab61fd5c3","fromNode":"47e2681a667d9ce9","fromSide":"right","toNode":"5444b6d2366457f1","toSide":"left"},
+		{"id":"1ed4e56ed98f6dac","fromNode":"f19446db2b95b6fb","fromSide":"right","toNode":"d3ab16a359ec1512","toSide":"left"},
+		{"id":"b5bbfc953841993f","fromNode":"4eb5143a77cf1802","fromSide":"right","toNode":"ff2fafa0dda083bd","toSide":"left"},
+		{"id":"64eacf5b2f49874a","fromNode":"ff2fafa0dda083bd","fromSide":"right","toNode":"a0e21de1fba99009","toSide":"left"},
+		{"id":"32ebc9109b988c8e","fromNode":"ff2fafa0dda083bd","fromSide":"right","toNode":"b2d95e38c9d0e219","toSide":"left"},
+		{"id":"15e6bc6f8727780a","fromNode":"9c84b581ebde13c2","fromSide":"right","toNode":"d7457b006bd3a0e1","toSide":"left"}
+	]
+}
